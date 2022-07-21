@@ -1,6 +1,27 @@
 
-.jumbotron {
-  background-image: url("..static/images/biodiversity.jpg");
-  background-size: cover;
-  text-align: center;
+    body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-color: #fff8f3;
+    
+  }
+  
+  
+  .jumbotron {
+    background-image: url("..static/images/biodiversity.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.25);
+    }
+
+    .panel-body{
+      font-weight: bold;
+    }
+
+  h4 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    
   }
