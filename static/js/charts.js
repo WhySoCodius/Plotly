@@ -36,7 +36,7 @@
     
     // Demographics Panel 
     function buildMetadata(sample) {
-      d3.json("static/js/samples.json").then((data) => {
+      d3.json("samples.json").then((data) => {
         var metadata = data.metadata;
         // Filter the data for the object with the desired sample number
         var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
@@ -60,7 +60,7 @@
     // 1. Create the buildCharts function.
     function buildCharts(sample) {
       // 2. Use d3.json to load and retrieve the samples.json file 
-      d3.json("static/js/samples.json").then((data) => {
+      d3.json("samples.json").then((data) => {
         // 3. Create a variable that holds the samples array. 
         var samples = data.samples;
         // 4. Create a variable that filters the samples for the object with the desired sample number.
@@ -69,7 +69,7 @@
         var result = resultArray[0];
     
         // To print the results
-        console.log(`result: ${result}`);
+       // console.log(`result: ${result}`);
     
         // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
         var otuIds = result.otu_ids;
