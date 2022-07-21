@@ -128,7 +128,9 @@ var bubLayout = {
   hovermode:"closest",
   xaxis:{title:"OTU ID"},
   height: 600,
-  width: 1200
+  width: 1200,
+  automargin: true,
+  paper_bgcolor:"#fff8f3"
  };
 
 
@@ -176,12 +178,13 @@ var gaugeData = [{
 ];
 
 // 5. Create the layout for the gauge chart.
-var gaugeLayout = {
-  width: 600, height: 450, margin: { t: 0, b: 0 }
-
-
+var gaugeLayout = { 
+  automargin: true,
+  paper_bgcolor:"#fff8f3"
+            
+ };
 // 6. Use Plotly to plot the gauge data and layout.
-};
+
 Plotly.newPlot("gauge",gaugeData,gaugeLayout);
 });
 }
