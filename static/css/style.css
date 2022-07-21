@@ -7,12 +7,11 @@ body {
 }
 .jumbotron{
 
-  background: #EAF0EE;
-  background: -webkit-linear-gradient(bottom, #EAF0EE, #9E9C9E);
-  background: -moz-linear-gradient(bottom, #EAF0EE, #9E9C9E);
-  background: linear-gradient(to top, #EAF0EE, #9E9C9E);
-  /* background-color: #8e9ea1; */
-  background-image: url("../images/biodiversity.jpg");
+  
+  background-image: url("..static/images/biodiversity.jpg");
   background-size: 100% 100%;
   text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.25);
+  
 }
