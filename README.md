@@ -6,7 +6,7 @@ Roza has a partially completed dashboard that she needs to finish. She has a com
 
 ## Resources 
 ### Data Sources: 
-We used the following [samples](/samples.json) were used to to create the webpage.
+We used the following [samples](/samples.json) were used to to create the [webpage ](https://whysocodius.github.io/Plotly/).
 
 ### Softwares:
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
